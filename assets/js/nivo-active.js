@@ -1,15 +1,1 @@
-(function ($) {
-"use strict";
-
-$('#mainSlider').nivoSlider({
-	directionNav: false,
-	animSpeed: 2000,
-	slices: 18,
-	pauseTime: 4000,
-	pauseOnHover: false,
-	controlNav: true,
-	prevText: '<i class="fa fa-angle-left nivo-prev-icon"></i>',
-	nextText: '<i class="fa fa-angle-right nivo-next-icon"></i>'
-});
-
-})(jQuery);	
+!function(){"use strict";jQuery("#mainSlider").nivoSlider({directionNav:!1,animSpeed:2e3,slices:18,pauseTime:4e3,pauseOnHover:!1,controlNav:!0,prevText:'<i class="fa fa-angle-left nivo-prev-icon"></i>',nextText:'<i class="fa fa-angle-right nivo-next-icon"></i>'})}();
